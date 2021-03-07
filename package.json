@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cp -r public build",
-    "deploy": "./node_modules/.bin/vercel --prod"
+    "build": "cp -r public build"
   },
   "repository": {
     "type": "git",
@@ -13,7 +12,22 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "vercel": "^21.3.2"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
