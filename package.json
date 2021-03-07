@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "waffledefi:waffledefi/waffle-landing.git"
+    "url": "git@github.com:waffledefi/waffle-landing.git"
   },
   "dependencies": {
     "@craco/craco": "^6.1.1",
