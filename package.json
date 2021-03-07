@@ -1,0 +1,19 @@
+{
+  "name": "waffle-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp -r public build",
+    "deploy": "./node_modules/.bin/vercel --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "waffledefi:waffledefi/waffle-landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vercel": "^21.3.2"
+  }
+}
