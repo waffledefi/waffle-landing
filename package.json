@@ -2,13 +2,19 @@
   "name": "waffle-landing",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "cp -r public build"
+    "start": "craco start",
+    "build": "craco build"
   },
   "repository": {
     "type": "git",
     "url": "waffledefi:waffledefi/waffle-landing.git"
+  },
+  "dependencies": {
+    "@craco/craco": "^6.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.3"
   },
   "author": "",
   "license": "ISC",
