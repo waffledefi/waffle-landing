@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Button } from 'waffle-landing-uikit';
+import { ThemeProvider } from 'styled-components'
+import { light } from '@pancakeswap-libs/uikit'
+
+import { Button } from '@pancakeswap-libs/uikit';
 
 import './mvp.css';
 import './shake.css';
 
 const App = () => (
-  <>
+  <ThemeProvider theme={light}>
     <header>
       <nav>
         <a href="/">🧇 WaffleDefi</a>
@@ -17,7 +20,7 @@ const App = () => (
       </nav>
       <h1><span class="shake">🧇</span> WaffleDefi</h1>
       <p>Feel the crunchiness</p>
-      <Button />
+      <Button>Very soon</Button>
     </header>
 
     <main>
@@ -36,7 +39,7 @@ const App = () => (
         <small>WaffleDefi</small>
       </p>
     </footer>
-  </>
+  </ThemeProvider>
 )
 
 ReactDOM.render(

@@ -4,8 +4,7 @@
   "description": "",
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
-    "postinstall": "cd node_modules/waffle-landing-uikit && npm i && npm run build"
+    "build": "craco build"
   },
   "repository": {
     "type": "git",
@@ -13,10 +12,13 @@
   },
   "dependencies": {
     "@craco/craco": "^6.1.1",
+    "@pancakeswap-libs/uikit": "git://github.com/waffledefi/pancake-uikit.git",
+    "@types/react": "^17.0.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "waffle-landing-uikit": "git://github.com/waffledefi/waffle-landing-uikit.git"
+    "styled-components": "^5.1.1"
   },
   "author": "",
   "license": "ISC",
